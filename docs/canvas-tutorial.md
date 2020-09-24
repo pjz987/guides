@@ -1,5 +1,5 @@
 
-# Optional Canvas Lab: Draw a Picture
+# Canvas Tutorial: Draw a Picture
 
 ## Canvas in HTML
 
