@@ -3,7 +3,7 @@
 
 ## Canvas in HTML
 
-In this lab, you'll be using HTML5 `canvas` to draw images onto the screen.  Here's what a `canvas element` looks like in the html:
+In this tutorial, you'll be using HTML5 `canvas` to draw images onto the screen.  Here's what a `canvas element` looks like in the html:
 
 ```html
 <canvas width="750" height="750"></canvas>
