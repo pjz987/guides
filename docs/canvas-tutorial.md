@@ -126,13 +126,15 @@ function drawEye(xPos) { // the eyes will be the exact same except for the x-coo
     // eyeball
     ctx.beginPath()
     ctx.arc(xPos, 250, 50, 0, Math.PI) // notice this time the end angle value is half what it was before, this will give us a half circle
+    ctx.closePath()
     ctx.fillStyle = 'white'
     ctx.fill()
-    ctx.stroke
+    ctx.stroke()
 
     // pupil
     ctx.beginPath()
     ctx.arc(xPos, 250, 25, 0, Math.PI) // another half circle
+    ctx.closePath()
     ctx.fillStyle = 'black'
     ctx.fill()
     ctx.stroke()
